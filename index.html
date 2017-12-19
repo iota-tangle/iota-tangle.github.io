@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>
+To The Moon!
+</title>
+</head>
+<body>
+<script>
+function yourFunction() {
+    document.body.innerHTML = '';
+    var x = document.createElement("EMBED");
+    x.setAttribute("src", "https://iota-tangle.herokuapp.com/INR/1646.55046387/500000");
+    document.body.appendChild(x);
+    setTimeout(yourFunction, 5000);
+}
+yourFunction();
+</script>
+</body>
+<html>
